@@ -1,0 +1,63 @@
+/**
+ * Color Mixer Desktop Tool: Sets the view
+ *
+ * @author Kevin Cheng
+ * @version 1
+ */
+.root {
+	-fx-background-color: white;
+}
+
+#labelColor {
+	-fx-border-width: 2pt;
+	-fx-border-color: black;
+}
+
+#sliderRed {
+	-fx-orientation: horizontal;
+	-fx-show-tick-labels: true;
+	-fx-show-tick-marks: true;
+	-fx-major-tick-unit: 50;
+	-fx-minor-tick-count: 5;	 
+	-fx-show-tick-labels: true; 	 
+	-fx-snap-to-ticks: false; 	 
+	-fx-block-increment: 100;
+	-fx-alignment: center;
+}
+
+#sliderGreen {
+	-fx-orientation: horizontal;
+	-fx-show-tick-labels: true;
+	-fx-show-tick-marks: true;
+	-fx-major-tick-unit: 50;
+	-fx-minor-tick-count: 5;	 
+	-fx-show-tick-labels: true; 	 
+	-fx-snap-to-ticks: false; 	 
+	-fx-block-increment: 100;
+	-fx-alignment: center;
+}
+
+#sliderBlue {
+	-fx-orientation: horizontal;
+	-fx-show-tick-labels: true;
+	-fx-show-tick-marks: true;
+	-fx-major-tick-unit: 50;
+	-fx-minor-tick-count: 5;	 
+	-fx-show-tick-labels: true; 	 
+	-fx-snap-to-ticks: false; 	 
+	-fx-block-increment: 100;
+	-fx-alignment: center;
+}
+
+#labelRedValue {
+	-fx-font-weight: bold;
+}
+
+#labelGreenValue {
+	-fx-font-weight: bold;
+}
+
+#labelBlueValue {
+	-fx-font-weight: bold;
+}
+
